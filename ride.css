@@ -35,10 +35,21 @@
 }
 .lists {
   border: 1px solid white;
-  height: 15%;
+  height: 10%;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+i.far.fa-user-circle {
+  margin-top: 1%;
 }
 @media screen and (max-width: 760px) {
   .avator {
+    font-size: 1.5rem;
+  }
+  .lists {
     font-size: 1.5rem;
   }
 }
