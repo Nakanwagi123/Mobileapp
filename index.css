@@ -36,8 +36,8 @@
 }
 @media screen and (max-width: 760px) {
   .container {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
     height: 80%;
   }
   .login {
