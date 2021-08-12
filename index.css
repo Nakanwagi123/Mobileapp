@@ -29,8 +29,9 @@ form {
   margin-left: 5%;
   margin-right: 5%;
   width: 90%;
-  height: 45%;
+  height: 54%;
   text-align: center;
+  border: 1px solid red;
 }
 .input {
   width: 100%;
@@ -74,7 +75,6 @@ a:hover {
     width: 90%;
     height: 45%;
     text-align: center;
-    margin-top: 2%;
   }
   .input {
     width: 100%;
