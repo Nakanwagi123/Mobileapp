@@ -156,4 +156,7 @@ i.fas.fa-sign-out-alt {
   .lists {
     font-size: 1.5rem;
   }
+  i.fas.fa-wallet {
+    width: 5%;
+  }
 }
