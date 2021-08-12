@@ -155,4 +155,7 @@ i.far.fa-user-circle {
   .lists {
     font-size: 1.5rem;
   }
+  .options {
+    height: 100%;
+  }
 }
