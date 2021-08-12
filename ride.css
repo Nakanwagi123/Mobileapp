@@ -151,10 +151,10 @@ i.fas.fa-sign-out-alt {
 }
 @media screen and (max-width: 760px) {
   .avator {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
   .lists {
-    font-size: 1.1rem;
+    font-size: 0.8rem;
   }
   i.fas.fa-wallet {
   }
@@ -168,9 +168,9 @@ i.fas.fa-sign-out-alt {
     width: 0;
   }
   .welcome_message h1 {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   .welcome_message p {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
