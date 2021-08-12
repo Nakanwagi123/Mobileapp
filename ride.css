@@ -1,9 +1,29 @@
-h1 {
-  color: maroon;
-  font-size: 28px;
-  font-family: Montserrat;
+.container-fluid {
+  background-color: rgb(22, 22, 63);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
 }
-p {
-  color: #006258;
-  background-color: #f3f3f3;
+.user {
+  width: 30%;
+  border: 1px solid white;
+}
+.options {
+  width: 70%;
+  border: 1px solid orangered;
+}
+.user_lists {
+  margin-left: 0;
+  margin-right: 0;
+  height: 100%;
+  border: 1px solid greenyellow;
+  margin-bottom: 0;
+  margin-top: 0;
+  list-style: none;
+  padding: 0;
+}
+.lists {
+  border: 1px solid white;
+  height: 25%;
 }

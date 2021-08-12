@@ -62,7 +62,7 @@ a:hover {
 .end {
   margin-top: -5%;
 }
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 760px) and (orientation: portrait) {
   .container {
     margin-left: 5%;
     margin-right: 5%;
