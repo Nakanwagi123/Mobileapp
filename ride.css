@@ -150,16 +150,10 @@ i.fas.fa-sign-out-alt {
   color: greenyellow;
 }
 @media screen and (max-width: 760px) {
-  .container-fluid {
-    height: 100%;
-  }
   .avator {
     font-size: 1.5rem;
   }
   .lists {
     font-size: 1.5rem;
-  }
-  .options {
-    height: 100%;
   }
 }
