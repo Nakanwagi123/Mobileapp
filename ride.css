@@ -65,7 +65,6 @@
   text-align: center;
   margin-left: 5%;
   border-radius: 15px;
-  height: 40%;
 }
 .distance {
   margin-left: 10%;
@@ -75,7 +74,6 @@
   text-align: center;
   border: 1px groove white;
   border-radius: 15px;
-  height: 40%;
 }
 
 /* recent two*/
@@ -93,7 +91,6 @@
   background-color: #f3f3f3;
   color: rgb(38, 18, 11);
   border-radius: 15px;
-  height: 40%;
 }
 .text {
   border: 1px solid red;
@@ -103,7 +100,6 @@
   width: 40%;
   background-color: #f3f3f3;
   border-radius: 15px;
-  height: 40%;
 }
 /*User lists*/
 .user_lists {
