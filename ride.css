@@ -158,4 +158,19 @@ i.fas.fa-sign-out-alt {
   }
   i.fas.fa-wallet {
   }
+  .welcome_message {
+    background: url("./images/driveneon.jpg") center center/cover no-repeat;
+    width: 100%;
+    border-radius: 15px;
+  }
+  .image {
+    visibility: hidden;
+    width: 0;
+  }
+  .welcome_message h1 {
+    font-size: 1.3rem;
+  }
+  .welcome_message p {
+    font-size: 1rem;
+  }
 }
