@@ -11,9 +11,19 @@
   margin-right: 25%;
   margin-left: 25%;
   border: 2px groove #f3f3f3;
+  border-radius: 15px;
 }
 .container h2 {
   font-family: Montserrat;
   font-size: 3rem;
   color: #f3f3f3;
+}
+.container p {
+  font-size: 1rem;
+  color: #f3f3f3;
+}
+.login {
+  width: 90%;
+  height: 10%;
+  margin-top: 25%;
 }
