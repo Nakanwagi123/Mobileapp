@@ -12,6 +12,72 @@
 .options {
   width: 70%;
   border: 1px solid orangered;
+  padding: 0;
+}
+.screen {
+  background-color: gainsboro;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+}
+.welcome {
+  display: flex;
+  flex-direction: row;
+  height: 35%;
+}
+.welcome_message {
+  padding-left: 5%;
+  width: 40%;
+  background: linear-gradient(90deg, black, black, rgba(0, 0, 0, 0.5));
+  color: #f3f3f3;
+}
+.welcome p {
+  text-align: left;
+}
+.catchup {
+  width: 40%;
+  height: 20%;
+  border-radius: 15px;
+}
+.image {
+  background: url("./images/drivetrip.jpg") center center/cover no-repeat;
+  width: 60%;
+  height: auto;
+  border-radius: 15px;
+}
+/*recent trips*/
+.recent {
+  height: 65%;
+  background-color: greenyellow;
+  margin-top: -2%;
+}
+.recent_trips {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: red;
+  list-style: none;
+}
+.trips {
+  width: 50%;
+}
+.distance {
+  width: 50%;
+}
+.location {
+  width: 50%;
+  border: 1px solid red;
+  text-align: center;
+}
+/* recent two*/
+.recent_two {
+  display: flex;
+  flex-direction: row;
 }
 .user_lists {
   margin-left: 0;
@@ -41,6 +107,9 @@
   flex-direction: row;
   padding-left: 5%;
   padding-top: 5%;
+}
+i.fas.fa-user {
+  color: greenyellow;
 }
 i.far.fa-user-circle {
   margin-top: 1%;
