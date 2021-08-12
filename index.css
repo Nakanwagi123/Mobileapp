@@ -12,6 +12,7 @@
   margin-left: 25%;
   border: 3px groove #f3f3f3;
   border-radius: 15px;
+  box-shadow: 0 3px 6px 10px #61beb5;
 }
 .container h2 {
   font-family: Montserrat;
@@ -36,8 +37,8 @@
 }
 @media screen and (max-width: 760px) {
   .container {
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
     height: 80%;
   }
   .login {
