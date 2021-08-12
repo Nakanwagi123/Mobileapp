@@ -173,6 +173,19 @@ i.fas.fa-sign-out-alt {
   .welcome_message p {
     font-size: 0.8rem;
   }
+  .trips h2 {
+    font-size: 1rem;
+  }
+  .trips p {
+    font-size: 0.8rem;
+  }
+  .distance h2 {
+    font-size: 1rem;
+  }
+  .distance p {
+    font-size: 0.8rem;
+  }
+
   .location h2 {
     font-size: 1rem;
   }
