@@ -173,4 +173,16 @@ i.fas.fa-sign-out-alt {
   .welcome_message p {
     font-size: 0.8rem;
   }
+  .location h2 {
+    font-size: 1rem;
+  }
+  .location p {
+    font-size: 0.8rem;
+  }
+  .text h2 {
+    font-size: 1rem;
+  }
+  .text p {
+    font-size: 0.8rem;
+  }
 }
