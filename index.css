@@ -88,4 +88,7 @@ a:hover {
     border-radius: 15px;
     margin-left: 15%;
   }
+  .end {
+    margin-top: -4%;
+  }
 }
