@@ -1,5 +1,19 @@
 .container-fluid {
-  background: url("./images/driveneon.jpg") center center/contain no-repeat;
+  background-color: black;
   width: 100%;
-  height: auto;
+  height: 70vh;
+  padding-top: 15%;
+}
+.container {
+  background: url("./images/rideroad.jpg") center center/cover no-repeat;
+  height: 60vh;
+  text-align: center;
+  margin-right: 25%;
+  margin-left: 25%;
+  border: 2px groove #f3f3f3;
+}
+.container h2 {
+  font-family: Montserrat;
+  font-size: 3rem;
+  color: #f3f3f3;
 }
