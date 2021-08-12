@@ -1,1 +1,9 @@
-hello
+h1 {
+  color: maroon;
+  font-size: 28px;
+  font-family: Montserrat;
+}
+p {
+  color: #006258;
+  background-color: #f3f3f3;
+}
