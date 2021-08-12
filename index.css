@@ -10,7 +10,7 @@
   text-align: center;
   margin-right: 25%;
   margin-left: 25%;
-  border: 2px groove #f3f3f3;
+  border: 3px groove #f3f3f3;
   border-radius: 15px;
 }
 .container h2 {
@@ -26,9 +26,13 @@
   width: 90%;
   height: 10%;
   margin-top: 25%;
+  border-radius: 15px;
+  border: 2px groove rgb(38, 18, 11);
 }
-@media screen and (max-width: 700px) {
-  .container-fluid {
-    height: 100%;
+@media screen and (max-width: 1000px) {
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 90%;
   }
 }
