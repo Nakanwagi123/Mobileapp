@@ -1,1 +1,5 @@
-hello
+.container-fluid {
+  background: url("./images/driveneon.jpg") center center/contain no-repeat;
+  width: 100%;
+  height: auto;
+}
