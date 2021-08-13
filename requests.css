@@ -6,7 +6,13 @@
   margin-top: 0;
   margin-bottom: 0;
 }
+.intro {
+  padding-left: 5%;
+}
 .intro h2 {
   color: #f3f3f3;
   font-size: 2rem;
+}
+.rides {
+  height: 60%;
 }
