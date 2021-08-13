@@ -156,8 +156,7 @@ i.fas.fa-sign-out-alt {
   .lists {
     font-size: 0.8rem;
   }
-  i.fas.fa-wallet {
-  }
+
   .welcome_message {
     background: url("./images/driveneon.jpg") center center/cover no-repeat;
     width: 100%;
@@ -197,5 +196,66 @@ i.fas.fa-sign-out-alt {
   }
   .text p {
     font-size: 0.8rem;
+  }
+}
+@media screen and (max-height: 500px) {
+  .fas::before {
+    font-size: 1rem;
+  }
+  .fab::before {
+    font-size: 1rem;
+  }
+  .fas.fa-user.fa-10x::before {
+    font-size: 1.8rem;
+  }
+  .recent_trips {
+    height: 25%;
+  }
+  .recent_two {
+    height: 25%;
+  }
+}
+@media screen and (max-height: 460px) {
+  .trips {
+    line-height: 0.1rem;
+  }
+  .trips h2 {
+    font-size: 0.8rem;
+  }
+  .trips p {
+    font-size: 0.8rem;
+  }
+  .distance {
+    line-height: 0.1rem;
+  }
+  .distance h2 {
+    font-size: 0.8rem;
+  }
+  .distance p {
+    font-size: 0.8rem;
+  }
+  .location {
+    line-height: 0.1rem;
+  }
+  .location h2 {
+    font-size: 0.8rem;
+  }
+  .location p {
+    font-size: 0.8rem;
+  }
+  .text {
+    line-height: 0.1rem;
+  }
+  .text h2 {
+    font-size: 0.8rem;
+  }
+  .text p {
+    font-size: 0.8rem;
+  }
+  .recent_trips {
+    height: 40%;
+  }
+  .recent_two {
+    height: 40%;
   }
 }
