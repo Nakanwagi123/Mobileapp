@@ -29,7 +29,10 @@
 @media screen and (max-height: 359px) {
   .drivers {
     line-height: 0.5vw;
-    font-size: 0.2vw;
+    font-size: 1.5vw;
+  }
+  .drivers p {
+    font-size: 1.5vw;
   }
 }
 @media screen and (max-width: 1024px) and (min-width: 376px) {
