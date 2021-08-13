@@ -21,11 +21,17 @@
 .drivers {
   height: 25%;
   color: white;
+  border: 1px groove yellow;
+  border-radius: 2vw;
+  margin-bottom: 0.5%;
+  padding-left: 5%;
+  background-color: black;
 }
 .drivers p {
   padding-left: 5%;
   font-size: 2vh;
 }
+
 @media screen and (max-height: 359px) {
   .drivers {
     line-height: 0.5vw;
