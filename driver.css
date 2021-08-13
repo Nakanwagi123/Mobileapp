@@ -16,6 +16,8 @@
   width: 70%;
   list-style: none;
   border: 1px solid greenyellow;
+  border-bottom-left-radius: 7px;
+  border-top-left-radius: 7px;
 }
 .display {
   background: url("./images/kampala.jpg") center center/cover no-repeat;
@@ -24,6 +26,8 @@
   margin-top: 8vh;
   border: 1px solid red;
   margin-left: -15%;
+  border-bottom-left-radius: 7px;
+  border-top-left-radius: 7px;
 }
 .display h2 {
   text-align: center;
@@ -34,6 +38,9 @@
   padding-left: 1.5vw;
   margin-top: 3vh;
   border: 1px solid red;
+}
+.order {
+  height: 6vh;
 }
 @media screen and (max-width: 540px) and (min-width: 280px) {
   .container-fluid {
@@ -55,5 +62,8 @@
   .details {
     width: 100%;
     padding-left: 0;
+  }
+  .details h2 {
+    font-size: 2vw;
   }
 }
