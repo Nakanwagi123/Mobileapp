@@ -1,1 +1,59 @@
-hello
+.container-fluid {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  padding-left: 10vw;
+  padding-top: 4vh;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #f3f3f3;
+  height: 80%;
+  width: 70%;
+  list-style: none;
+  border: 1px solid greenyellow;
+}
+.display {
+  background: url("./images/kampala.jpg") center center/cover no-repeat;
+  width: 60%;
+  height: 80%;
+  margin-top: 8vh;
+  border: 1px solid red;
+  margin-left: -15%;
+}
+.display h2 {
+  text-align: center;
+  font-size: 4vw;
+}
+.details {
+  width: 50%;
+  padding-left: 1.5vw;
+  margin-top: 3vh;
+  border: 1px solid red;
+}
+@media screen and (max-width: 540px) and (min-width: 280px) {
+  .container-fluid {
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    width: 80%;
+    padding: 0;
+  }
+  .display {
+    height: 30%;
+    margin-top: 0;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .details {
+    width: 100%;
+    padding-left: 0;
+  }
+}
