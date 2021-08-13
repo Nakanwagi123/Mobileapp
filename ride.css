@@ -7,11 +7,10 @@
 }
 .user {
   width: 30%;
-  border: 1px solid white;
 }
 .options {
   width: 70%;
-  border: 1px solid orangered;
+
   padding: 0;
   height: 100%;
 }
@@ -65,15 +64,24 @@
   text-align: center;
   margin-left: 5%;
   border-radius: 15px;
+  background: rgba(136, 252, 0, 0.75);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 .distance {
   margin-left: 10%;
   width: 40%;
-  background-color: green;
   color: #f3f3f3;
   text-align: center;
   border: 1px groove white;
   border-radius: 15px;
+  background: rgba(136, 252, 0, 0.75);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 /* recent two*/
@@ -84,21 +92,29 @@
   background: linear-gradient(90deg, black, black, rgba(0, 0, 0, 0.5));
 }
 .location {
-  border: 1px solid red;
+  background: rgba(208, 2, 27, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
   text-align: center;
   margin-left: 5%;
   width: 40%;
-  background-color: #f3f3f3;
-  color: rgb(38, 18, 11);
+  color: #f3f3f3;
   border-radius: 15px;
 }
 .text {
-  border: 1px solid red;
+  background: rgba(245, 245, 245, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   text-align: center;
   color: maroon;
   margin-left: 10%;
   width: 40%;
-  background-color: #f3f3f3;
+
   border-radius: 15px;
 }
 /*User lists*/
