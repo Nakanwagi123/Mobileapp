@@ -15,7 +15,11 @@
 }
 .rides {
   height: 60%;
+  list-style: none;
+  padding: 2.5%;
 }
 .drivers {
   height: 20%;
+  color: white;
+  border: 1px solid red;
 }
