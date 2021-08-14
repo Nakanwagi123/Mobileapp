@@ -39,6 +39,10 @@
   margin-top: 3vh;
   border: 1px solid red;
 }
+.details h2 {
+  font-size: 2.5vw;
+}
+
 .order {
   height: 6vh;
 }
@@ -65,5 +69,22 @@
   }
   .details h2 {
     font-size: 2vw;
+  }
+  .details p {
+    font-size: 1vh;
+  }
+}
+@media screen and (max-height: 359px) {
+  .details {
+    line-height: 5vh;
+  }
+  .details h2 {
+    font-size: 6vh;
+  }
+  .details p {
+    font-size: 4vh;
+  }
+  .order {
+    height: 10vh;
   }
 }
