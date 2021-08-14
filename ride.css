@@ -161,7 +161,7 @@ i.fas.fa-car {
   color: maroon;
 }
 i.fas.fa-clipboard-check {
-  color: #006258;
+  color: maroon;
 }
 i.fas.fa-sign-out-alt {
   color: greenyellow;
@@ -176,7 +176,9 @@ i.fas.fa-sign-out-alt {
   .listss {
     font-size: 0.8rem;
   }
-
+  .listsss {
+    font-size: 0.8rem;
+  }
   .welcome_message {
     background: url("./images/driveneon.jpg") center center/cover no-repeat;
     width: 100%;
