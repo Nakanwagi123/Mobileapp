@@ -47,6 +47,8 @@
 
 .order {
   height: 6vh;
+  border: 2px groove rgb(38, 18, 11);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
 @media screen and (max-width: 540px) and (min-width: 280px) {
   .container-fluid {
@@ -57,6 +59,7 @@
     border: 1px solid red;
     width: 80%;
     padding: 0;
+    border-top-right-radius: 7px;
   }
   .display {
     height: 30%;
@@ -64,16 +67,25 @@
     width: 100%;
     margin-left: 0;
     margin-right: 0;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
   }
   .details {
     width: 100%;
     padding-left: 0;
+    text-align: center;
   }
   .details h2 {
-    font-size: 2vw;
+    font-size: 5vw;
   }
   .details p {
-    font-size: 1vh;
+    font-size: 2vh;
+  }
+  .order {
+    width: 30vw;
+    border: 2px groove rgb(38, 18, 11);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    font-size: 5vw;
   }
 }
 @media screen and (max-height: 359px) {
