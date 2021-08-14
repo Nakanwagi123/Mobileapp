@@ -163,6 +163,8 @@
   border-bottom-left-radius: 15px;
   border-top-left-radius: 15px;
   box-shadow: 0 8px 32px 0 rgba(21, 162, 197, 0.37);
+  border: 2px solid black;
+  border-right: none;
 }
 
 i.fas.fa-user {
