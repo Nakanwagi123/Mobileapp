@@ -42,20 +42,20 @@ a {
   color: greenyellow;
 }
 .listsss {
-  border: 3px solid #006258;
+  border: 2px solid black;
   height: 10%;
   font-size: 3vw;
   display: flex;
   flex-direction: row;
   padding-left: 5%;
   padding-top: 5%;
-  background-color: #006258;
+  background-color: black;
   border-bottom-left-radius: 15px;
   border-top-left-radius: 15px;
   box-shadow: 0 8px 32px 0 rgba(21, 162, 197, 0.37);
 }
 .options {
-  background-color: #006258;
+  background-color: black;
 }
 .listsss:hover {
   background: honeydew;

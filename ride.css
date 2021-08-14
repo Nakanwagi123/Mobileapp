@@ -13,6 +13,7 @@
   width: 70%;
   padding: 0;
   height: 100%;
+  background-color: black;
 }
 
 .welcome {
@@ -149,6 +150,14 @@
   padding-left: 5%;
   padding-top: 5%;
 }
+.home {
+  height: 10%;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+  padding-left: 5%;
+  padding-top: 5%;
+}
 
 i.fas.fa-user {
   color: #f3f3f3;
@@ -172,6 +181,13 @@ i.fas.fa-sign-out-alt {
   }
   .lists {
     font-size: 0.8rem;
+  }
+  .home {
+    font-size: 0.8rem;
+    background-color: black;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    box-shadow: 0 8px 32px 0 rgba(21, 162, 197, 0.37);
   }
   .listss {
     font-size: 0.8rem;
