@@ -43,19 +43,20 @@ a {
 }
 .listsss {
   border: 2px solid black;
+  border-right: none;
   height: 10%;
   font-size: 3vw;
   display: flex;
   flex-direction: row;
   padding-left: 5%;
   padding-top: 5%;
-  background-color: black;
+  background-color: rgb(36, 1, 36);
   border-bottom-left-radius: 15px;
   border-top-left-radius: 15px;
   box-shadow: 0 8px 32px 0 rgba(21, 162, 197, 0.37);
 }
 .options {
-  background-color: black;
+  background: linear-gradient(90deg, rgb(36, 1, 36), black, black);
 }
 .listsss:hover {
   background: honeydew;

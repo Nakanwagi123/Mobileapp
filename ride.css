@@ -1,5 +1,5 @@
 .container-fluid {
-  background-color: rgb(7, 7, 7);
+  background-color: rgb(68, 4, 68);
   width: 100%;
   height: 100%;
   display: flex;
@@ -7,13 +7,14 @@
 }
 .user {
   width: 30%;
+  background-color: black;
 }
 
 .options {
   width: 70%;
   padding: 0;
   height: 100%;
-  background-color: black;
+  background-color: rgb(36, 1, 36);
 }
 
 .welcome {
@@ -25,7 +26,7 @@
 .welcome_message {
   padding-left: 5%;
   width: 40%;
-  background: linear-gradient(90deg, black, black, rgba(0, 0, 0, 0.5));
+  background: linear-gradient(90deg, rgb(36, 1, 36), black);
   color: #f3f3f3;
 }
 .welcome p {
@@ -45,14 +46,15 @@
 /*recent trips*/
 .recent {
   height: 65%;
-  background: linear-gradient(90deg, black, black, rgba(0, 0, 0, 0.5));
+
+  background: linear-gradient(90deg, rgb(36, 1, 36), black, black);
 }
 .recent_trips {
   display: flex;
   flex-direction: row;
   margin-left: 0;
   margin-right: 0;
-  background: linear-gradient(90deg, black, black, rgba(0, 0, 0, 0.5));
+  background: linear-gradient(90deg, rgb(36, 1, 36), black, black);
   list-style: none;
   padding: 0;
   margin: 0;
@@ -92,7 +94,7 @@
   display: flex;
   flex-direction: row;
   margin-top: 2%;
-  background: linear-gradient(90deg, black, black, rgba(0, 0, 0, 0.5));
+  background: linear-gradient(90deg, rgb(36, 1, 36), black, black);
 }
 .location {
   background: rgba(208, 2, 27, 0.25);
@@ -157,6 +159,10 @@
   flex-direction: row;
   padding-left: 5%;
   padding-top: 5%;
+  background-color: rgb(36, 1, 36);
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  box-shadow: 0 8px 32px 0 rgba(21, 162, 197, 0.37);
 }
 
 i.fas.fa-user {
@@ -175,6 +181,10 @@ i.fas.fa-clipboard-check {
 i.fas.fa-sign-out-alt {
   color: greenyellow;
 }
+a {
+  text-decoration: none;
+  color: greenyellow;
+}
 @media screen and (max-width: 760px) {
   .avator {
     font-size: 1.1rem;
@@ -184,7 +194,7 @@ i.fas.fa-sign-out-alt {
   }
   .home {
     font-size: 0.8rem;
-    background-color: black;
+    background-color: rgb(68, 4, 68);
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
     box-shadow: 0 8px 32px 0 rgba(21, 162, 197, 0.37);
