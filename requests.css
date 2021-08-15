@@ -55,6 +55,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   transition: margin-top 2s, height 2s;
+  transition-timing-function: ease-in-out;
   /**/
 }
 .driverss p {
@@ -65,20 +66,53 @@
   font-size: 2vh;
   display: inline-block;
 }
-.image {
-  background-image: url("./images/kampala.jpg") center center/contain no-repeat;
+.driversss {
+  height: 25%;
+  color: rgb(173, 255, 47);
+  border-radius: 2vw;
+  margin-bottom: 0.5%;
+  padding-left: 5%;
+  background: rgba(255, 0, 0, 0.6);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: margin-top 2s, height 2s;
+  transition-timing-function: ease-in-out;
+  /**/
+}
+.driversss p {
+  padding-left: 5%;
+  font-size: 2vh;
+}
+.driversss h2 {
+  font-size: 2vh;
+  display: inline-block;
+}
+.view {
+  /**/
+  background: url("./images/kampala1.jpg") center center/contain no-repeat;
   width: 100%;
-  height: 50%;
+  height: 25%;
   border-bottom-left-radius: 7px;
   border-top-left-radius: 7px;
   opacity: 1;
+  text-align: center;
 }
 .driverss:hover {
-  overflow: visible;
-  height: 75%;
+  height: 60%;
   margin-top: -75%;
 }
-
+.driversss:hover {
+  height: 50%;
+  margin-top: -75%;
+}
+.press {
+  display: inline-block;
+}
 a {
   text-decoration: none;
   color: greenyellow;
@@ -119,6 +153,13 @@ a {
   .driverss p {
     font-size: 1.5vw !important;
   }
+  .driversss {
+    line-height: 0.5vw;
+    font-size: 1.5vw;
+  }
+  .driversss p {
+    font-size: 1.5vw !important;
+  }
   .avator {
     font-size: 1.6vw;
   }
@@ -141,5 +182,17 @@ a {
   }
   .listsss {
     font-size: 2vw;
+  }
+  .driverss:hover {
+    overflow: visible;
+    height: 100%;
+    margin-top: -50%;
+    opacity: 1;
+  }
+  .driverss:hover {
+    overflow: visible;
+    height: 100%;
+    margin-top: -50%;
+    opacity: 1;
   }
 }
