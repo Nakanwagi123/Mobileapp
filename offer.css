@@ -35,7 +35,7 @@
   font-size: 2vh;
 }
 .drivers:hover {
-  background-color: #f3f3f3;
+  transform: scale(1, 3);
 }
 a {
   text-decoration: none;
