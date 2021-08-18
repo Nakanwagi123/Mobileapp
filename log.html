@@ -1,11 +1,27 @@
 <html>
   <title>Logs</title>
-  <head></head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./log.css" />
+  </head>
   <body>
     <div class="container-fluid">
       <div class="container">
-        <p>Total Requests</p>
-        <p>Total Orders</p>
+        <div class="counter">
+          <ul class="logs">
+            <li class="log"><h1>LOG</h1></li>
+            <li class="log"><p>New</p></li>
+            <li class="log"><p>Accepted</p></li>
+            <li class="log"><p>Rejected</p></li>
+          </ul>
+        </div>
+        <div class="notifications">
+          <div class="search">
+            <input type="search" class="type" placeholder="Search" />
+          </div>
+        </div>
       </div>
     </div>
   </body>
