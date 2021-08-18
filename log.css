@@ -15,8 +15,75 @@
 .counter {
   flex: 1;
   border: 1px solid white;
+  display: flex;
+  flex-direction: column;
 }
 .notifications {
   flex: 4;
   border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+}
+.counter_logs {
+  flex: 1;
+}
+.logs {
+  flex: 10;
+  border: 1px solid white;
+}
+.log {
+  color: greenyellow;
+}
+.search {
+  flex: 1;
+  border: 1px solid white;
+}
+.incoming_texts {
+  flex: 10;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.dm {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.incoming {
+  flex: 1;
+  width: 95%;
+  border-bottom: 1px solid rgba(36, 1, 36, 1);
+  border-left: none;
+  color: #f3f3f3;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  padding: 1vw;
+}
+.fas.fa-user-circle {
+  font-size: 5vh;
+}
+.incoming p {
+  display: inline-block;
+  font-size: 3vh;
+}
+.answer {
+  font-size: 3vh;
+  width: 5vw;
+}
+.Yes {
+  font-size: 3vh;
+  width: 10vh;
+  background-color: greenyellow;
+  text-align: center;
+}
+.No {
+  font-size: 3vh;
+  width: 10vh;
+  background-color: red;
+  text-align: center;
 }
