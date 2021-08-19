@@ -11,8 +11,10 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./log.css" />
+    <script rel="js" src="./ride.js"></script>
   </head>
-  <body>
+
+  <body onload="change()">
     <div class="container-fluid">
       <div class="container">
         <div class="counter">
@@ -20,7 +22,7 @@
             <h1>LOGS</h1>
             <i class="fas fa-bell"></i>
           </div>
-          <ul class="logs">
+          <ul id="logs" class="logs">
             <li class="log"><p>New(4)</p></li>
             <li class="log"><p>Accepted(2)</p></li>
             <li class="log"><p>Rejected(3)</p></li>
@@ -36,19 +38,14 @@
             <input type="search" class="type" placeholder="Search" />
           </div>
           <div class="incoming_texts">
-            <ul class="dm">
-              <li class="incoming">
+            <ul id="dm" class="dm">
+              <li id="incoming" class="incoming">
                 <i class="fas fa-user-circle"></i>
-                <p>Yeh! Wanna give me a ride?</p>
+                <p id="demo"></p>
                 <br />
                 <button class="Yes">Yes</button><button class="No">Nah!</button>
               </li>
-              <li class="incoming">
-                <i class="fas fa-user-circle"></i>
-                <p>Yeh! Wanna give me a ride?</p>
-                <br />
-                <button class="Yes">Yes</button><button class="No">Nah!</button>
-              </li>
+
               <li class="incoming">
                 <i class="fas fa-user-circle"></i>
                 <p>Yeh! Wanna give me a ride?</p>
