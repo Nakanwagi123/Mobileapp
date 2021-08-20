@@ -18,6 +18,34 @@ function extract() {
   document.getElementById("locate").innerHTML = "Location: " + locate;
   document.getElementById("price").innerHTML = "Max Price: " + price;
 }
+function offers() {
+  const listings = {
+    name: "Linus",
+    location: "Jinja",
+    price: "200000",
+    name: "Diego",
+    location: "Entebbe",
+    price: "130000",
+  };
+  const names = ["Linus", "Diego", "Bruno"];
+  const locate = ["Kibuye", "Makindye", "Acacia"];
+  const rate = ["4star", "5star", "3star"];
+  //Driver1
+  document.getElementById("tag").innerHTML = "Driver: " + names[0];
+  document.getElementById("rating").innerHTML = "Rate: " + rate[0];
+  document.getElementById("location").innerHTML = "Location: " + locate[0];
+  document.getElementById("location1").innerHTML = "Explore " + locate[0];
+  //Driver2
+  document.getElementById("tag1").innerHTML = "Driver: " + names[1];
+  document.getElementById("rating1").innerHTML = "Rate: " + rate[1];
+  document.getElementById("location11").innerHTML = "Location: " + locate[1];
+  document.getElementById("location111").innerHTML = "Explore " + locate[1];
+  //Driver3
+  document.getElementById("tag2").innerHTML = "Driver: " + names[2];
+  document.getElementById("rating2").innerHTML = "Rate: " + rate[2];
+  document.getElementById("location2").innerHTML = "Location: " + locate[2];
+  document.getElementById("location12").innerHTML = "Explore " + locate[2];
+}
 
 //getting values
 
