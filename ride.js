@@ -66,11 +66,7 @@ function trials() {
     var param = new URL(location.href).searchParams;
     var incoming = param.get("destination");
     document.getElementById("word").innerHTML =
-      "Yeh! Wanna give me a ride?" +
-      "<p>" +
-      "Destination: " +
-      incoming +
-      "</p>";
+      "<p>" + "Destination: " + incoming + "</p>";
   }
 }
 function answer() {
