@@ -9,7 +9,7 @@ function extract() {
   var price = param.get("price");
   document.getElementById("name").innerHTML = "Driver: " + name;
   document.getElementById("locate").innerHTML = "Location: " + locate;
-  document.getElementById("price").innerHTML = "Max Price: " + price;
+  document.getElementById("price").innerHTML = "Rating: " + price;
 }
 function offers() {
   const listings = {
