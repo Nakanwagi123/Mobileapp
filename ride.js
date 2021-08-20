@@ -27,6 +27,5 @@ function orders() {
     document.createTextNode(
       "Yeh! Wanna give me a ride?" + "<button>Yes</button>"
     )*/
-  var win = window.open((url = "./log.html"));
-  win.focus();
+  alert("Your order was sent!");
 }
