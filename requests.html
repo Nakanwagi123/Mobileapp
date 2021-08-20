@@ -13,10 +13,10 @@
     />
     <script src="./ride.js"></script>
   </head>
-  <body>
+  <body onload="extract()">
     <div class="container-fluid">
       <div class="user">
-        <ul class="user_lists">
+        <ul class="user_lists" id="user_lists">
           <li class="list">
             <i class="fas fa-user fa-10x" aria-hidden="true"></i>
             <p class="avator">Hello User</p>
@@ -42,18 +42,18 @@
         </ul>
       </div>
       <div class="options">
-        <ul class="offers">
+        <ul class="offers" name="offers" id="offers">
           <li class="intro">
-            <h2>Recent Offers</h2>
+            <h2>Recent Offers</h2><button onclick="extract()">Refresh</button>
             <input type="search" placeholder="Search" />
           </li>
-          <ul class="rides">
+          <ul class="rides" id="rides">
             <li class="driversss">
               <i class="fas fa-car fa-2x"></i
-              ><h2>Driver:David
-                120<small>000</small>Ugshs</h2>
-               <p style="color: greenyellow"><small><br/>Destination:kampala
-          </small>Time:2hours<p>Distance:10km</p><div class="view">Explore kampala</div><button class="press" onclick="orders()">Order</button></p></p>
+              ><h2 id="name">Driver:David  </h2>
+              <p id="price"></p>
+              <p style="color: greenyellow"><p id="locate">Location:kampala</p>
+        <div class="view">Explore kampala</div><button class="press" onclick="orders()">Order</button></p></p>
             </li>
             <li class="driversss">
               <i class="fas fa-car fa-2x"></i
@@ -62,21 +62,23 @@
                <p style="color: greenyellow"><small><br/>Destination:kampala
           </small>Time:2hours<p>Distance:10km</p><div class="view">Explore kampala</div><button class="press">Order</button></p></p>
             </li>
-            <li class="driversss">
-              <i class="fas fa-car fa-2x"></i><h2>Driver:Linus
+             <li class="driversss">
+              <i class="fas fa-car fa-2x"></i
+              ><h2>Driver:Luke
                 120<small>000</small>Ugshs</h2>
                <p style="color: greenyellow"><small><br/>Destination:kampala
           </small>Time:2hours<p>Distance:10km</p><div class="view">Explore kampala</div><button class="press">Order</button></p></p>
             </li>
-
-            <li class="driversss">
-          <i class="fas fa-car fa-2x"></i>
-          <h2>Driver:David
-          120<small>000</small>Ugshs</h2>
-          <p style="color: greenyellow"><small><br/>Destination:kampala
-          </small> Time:2hours<p>Distance:10km</p><div class="view">Explore kampala</div>
-        <button class="press">Order</button></p>
+             <li class="driversss">
+              <i class="fas fa-car fa-2x"></i
+              ><h2>Driver:Luke
+                120<small>000</small>Ugshs</h2>
+               <p style="color: greenyellow"><small><br/>Destination:kampala
+          </small>Time:2hours<p>Distance:10km</p><div class="view">Explore kampala</div><button class="press">Order</button></p></p>
             </li>
+           <li class="drivesss" id="drive"></li>
+
+        
           </ul>
         </ul>
       </div>

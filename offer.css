@@ -13,6 +13,9 @@
   color: #f3f3f3;
   font-size: 5vh;
 }
+.intro p {
+  display: inline-block;
+}
 .rides {
   height: 60%;
   list-style: none;
