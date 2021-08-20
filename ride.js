@@ -1,10 +1,3 @@
-function change() {
-  let same = "Yeh wanna give me a ride?";
-  const listings = ["Kampala", "Jinja", "Bukoto"];
-  var list = document.createElement("li");
-  list.innerHTML = listings[0] + same;
-  document.getElementById("dm").appendChild(list);
-}
 //for whole string
 /*function extract() {
   var params = window.location.search.slice(1).split("&");
@@ -74,4 +67,25 @@ function answer() {
 }
 function reject() {
   document.getElementById("incoming").innerHTML = "ORDER REJECTED";
+}
+function clients() {
+  const names = ["Riley", "Luca", "Stancy", "Neoline"];
+  const locate = ["Kibuye", "entebbe", "Acacia", "wakiso"];
+  const price = ["120000", "40000", "60000", "30,000"];
+
+  document.getElementById("approved").innerHTML = names[0];
+  document.getElementById("charge").innerHTML = price[0];
+  document.getElementById("Destination").innerHTML = locate[1];
+  //client2
+  document.getElementById("approved1").innerHTML = names[1];
+  document.getElementById("charge1").innerHTML = price[1];
+  document.getElementById("Destination1").innerHTML = locate[1];
+  //client3
+  document.getElementById("approved2").innerHTML = names[2];
+  document.getElementById("charge2").innerHTML = price[2];
+  document.getElementById("Destination2").innerHTML = locate[2];
+  //client4
+  document.getElementById("approved3").innerHTML = names[3];
+  document.getElementById("charge3").innerHTML = price[3];
+  document.getElementById("Destination3").innerHTML = locate[3];
 }
