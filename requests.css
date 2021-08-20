@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }*/
+#formy {
+  /*visibility: hidden;*/
+}
 .offers {
   list-style: none;
   padding: 0;

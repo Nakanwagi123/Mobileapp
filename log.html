@@ -14,7 +14,7 @@
     <script src="./ride.js"></script>
   </head>
 
-  <body onload="change()">
+  <body onload="trials()">
     <div class="container-fluid">
       <div class="container">
         <div class="counter">
@@ -29,6 +29,7 @@
             <li class="log"><p>Read(5)</p></li>
             <li class="log">
               <p>Search</p>
+              <button onclick="trials()">Refresh</button>
               <br />
             </li>
           </ul>
@@ -41,34 +42,54 @@
             <ul id="dm" class="dm">
               <li id="incoming" class="incoming">
                 <i class="fas fa-user-circle"></i>
-                <p id="demo"></p>
+                <p id="word"></p>
                 <br />
-                <button class="Yes">Yes</button><button class="No">Nah!</button>
+                <button
+                  type="button"
+                  id="first"
+                  class="Yes"
+                  value="yes"
+                  onclick="answer()"
+                >
+                  Yes</button
+                ><button
+                  type="button"
+                  id="second"
+                  class="No"
+                  onclick="reject()"
+                  value="no"
+                >
+                  Nah!
+                </button>
               </li>
 
               <li class="incoming">
                 <i class="fas fa-user-circle"></i>
                 <p>Yeh! Wanna give me a ride?</p>
                 <br />
-                <button class="Yes">Yes</button><button class="No">Nah!</button>
+                <button class="Yes" onclick="answer()">Yes</button
+                ><button class="No">Nah!</button>
               </li>
               <li class="incoming">
                 <i class="fas fa-user-circle"></i>
                 <p>Yeh! Wanna give me a ride?</p>
                 <br />
-                <button class="Yes">Yes</button><button class="No">Nah!</button>
+                <button class="Yes" onclick="answer()">Yes</button
+                ><button class="No">Nah!</button>
               </li>
               <li class="incoming">
                 <i class="fas fa-user-circle"></i>
                 <p>Yeh! Wanna give me a ride?</p>
                 <br />
-                <button class="Yes">Yes</button><button class="No">Nah!</button>
+                <button class="Yes" onclick="answer()">Yes</button
+                ><button class="No">Nah!</button>
               </li>
               <li class="incoming">
                 <i class="fas fa-user-circle"></i>
                 <p>Yeh! Wanna give me a ride?</p>
                 <br />
-                <button class="Yes">Yes</button><button class="No">Nah!</button>
+                <button type="button" class="Yes" onclick="answer()">Yes</button
+                ><button class="No">Nah!</button>
               </li>
             </ul>
           </div>

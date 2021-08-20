@@ -48,12 +48,34 @@ function offers() {
 }
 
 //getting values
-
 function orders() {
-  /*  document.getElementById("incoming").innerHTML = listings[0] + same; window.alert("Request sent"); document.querySelector(".user_lists").appendChild(node); var node = document.createElement("li");
+  /*  document.getElementById("incoming").innerHTML = listings[0] + same; window.alert("Request sent"); document.querySelector(".user_lists").appendChild(node);
+   var node = document.createElement("li");
   node.appendChild(
     document.createTextNode(
       "Yeh! Wanna give me a ride?" + "<button>Yes</button>"
     )*/
+  var where = window.prompt("Enter destination: ", "Kampala");
   alert("Your order was sent!");
+  var href = "./log.html?destination=" + where;
+  location.replace(href);
+}
+function trials() {
+  var href = window.location.search;
+  if (window.location.search == href) {
+    var param = new URL(location.href).searchParams;
+    var incoming = param.get("destination");
+    document.getElementById("word").innerHTML =
+      "Yeh! Wanna give me a ride?" +
+      "<p>" +
+      "Destination: " +
+      incoming +
+      "</p>";
+  }
+}
+function answer() {
+  document.getElementById("incoming").innerHTML = "ORDER CONFIRMED";
+}
+function reject() {
+  document.getElementById("incoming").innerHTML = "ORDER REJECTED";
 }
