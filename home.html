@@ -26,7 +26,6 @@
       <div class="container">
         <div class="split">
           <h1>Green House Gas Calculator</h1>
-          <div class="indicator">Alert</div>
           <h3>Contributors</h3>
           <marquee direction="left" backgroundcolor="white">
             <div class="contributors">
@@ -42,16 +41,93 @@
         </div>
         <div class="split">
           <div id="Varia"></div>
-          <form>
-            <input
-              type="number"
-              id="price"
-              name="price"
-              placeholder="Enter rating"
-            />
-          </form>
+          <ul class="fill">
+            <li>
+              <input
+                type="range"
+                id="industry"
+                min="0"
+                max="19"
+                placeholder="Enter rating"
+              />
+            </li>
+            <li>
+              <input
+                type="range"
+                id="deforestation"
+                min="0"
+                max="17"
+                placeholder="Enter rating"
+              />
+            </li>
+            <li>
+              <input
+                type="range"
+                id="power&energy"
+                min="0"
+                max="15"
+                placeholder="Enter rating"
+              />
+            </li>
+            <li>
+              <input
+                type="range"
+                id="agriculture"
+                min="0"
+                max="14"
+                placeholder="Enter rating"
+              />
+            </li>
+            <li>
+              <input
+                type="range"
+                id="transportation"
+                min="0"
+                max="10"
+                placeholder="Enter rating"
+              />
+            </li>
+            <li>
+              <input
+                type="range"
+                id="waste"
+                min="0"
+                max="10"
+                placeholder="Enter rating"
+              />
+            </li>
+            <li>
+              <input
+                type="range"
+                id="water"
+                min="0"
+                max="10"
+                placeholder="Enter rating"
+              />
+            </li>
+            <li>
+              <input
+                type="range"
+                id="building"
+                min="0"
+                max="5"
+                placeholder="Enter rating"
+              />
+            </li>
+          </ul>
+
+          <button type="button" onclick="MyFade()">Finish</button>
         </div>
-        <div class="split"></div>
+        <div class="split">
+          <div class="cover">
+            <div id="smoke">
+              <img
+                src="images\—Pngtree—cloud of smoke on dark_3550782.png"
+                id="image"
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </body>

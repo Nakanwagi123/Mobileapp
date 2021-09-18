@@ -45,3 +45,34 @@ function GHG() {
     Variables[8] + "-" + Values[8] + "%";
   document.getElementById("Varia").innerHTML = "Variables";
 }
+//  setTimeout(function () {MyFade();}, 500);
+
+var opacity = 0;
+
+function MyFade() {
+  var industry = document.getElementById("industry").value;
+  var deforestation = document.getElementById("deforestation").value;
+  var power = document.getElementById("power&energy").value;
+  var agriculture = document.getElementById("agriculture").value;
+  var transportation = document.getElementById("transportation").value;
+  var waste = document.getElementById("waste").value;
+  var water = document.getElementById("water").value;
+  var building = document.getElementById("building").value;
+  reference = 85;
+  Values = [19, 17, 15, 14, 10, 10, 10, 5];
+  total =
+    parseInt(industry) +
+    parseInt(deforestation) +
+    parseInt(power) +
+    parseInt(agriculture) +
+    parseInt(transportation) +
+    parseInt(waste) +
+    parseInt(water) +
+    parseInt(building);
+
+  alert("here" + total);
+  if (total >= reference) {
+    opacity = (total - reference) / 15;
+    document.getElementById("smoke").style.opacity = opacity;
+  }
+}

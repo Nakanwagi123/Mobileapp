@@ -78,3 +78,32 @@ body {
   padding-right: 0.5em;
   background-color: teal;
 }
+.cover {
+  background: url("images/favpng_earth-globe.png") center center/contain
+    no-repeat;
+  max-width: 100%;
+  border: 5px groove white;
+  border-radius: 25%;
+}
+#image {
+  max-width: 100%;
+  z-index: 1;
+  border: 1px groove white;
+  border-radius: 25%;
+}
+#smoke {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1),
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 1)
+  );
+  border: 1px groove white;
+  border-radius: 25%;
+  opacity: 0;
+}
+.fill {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
