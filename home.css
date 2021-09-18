@@ -8,9 +8,13 @@ body {
   background-color: yellow;
   font-size: 1rem;
 }
-.container {
+.others {
+  padding: 1rem 1rem;
+}
+.containerr {
   margin-inline: auto;
 }
+
 .disappear {
   display: none;
 }
@@ -51,4 +55,26 @@ body {
 }
 .vis {
   display: none;
+}
+/*Content */
+.container {
+  margin-inline: auto;
+  border: 1px solid whitesmoke;
+}
+.split {
+  display: flex;
+  flex-direction: column;
+  font-size: 1em;
+}
+.indicator {
+  background-color: red;
+}
+.contributors {
+  display: flex;
+  flex-direction: row;
+  padding-left: 1em;
+}
+.contributors > * {
+  padding-right: 0.5em;
+  background-color: teal;
 }

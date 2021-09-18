@@ -8,9 +8,9 @@
     <script src="./home.js"></script>
     <title>Home</title>
   </head>
-  <body>
-    <section>
-      <div class="container">
+  <body onload="GHG()">
+    <section class="navbar">
+      <div class="containerr">
         <div class="overall">
           <button class="op_button" onclick="navbar()"></button>
           <div class="disappear" id="nav">
@@ -22,9 +22,36 @@
         </div>
       </div>
     </section>
-    <section>
+    <section class="others">
       <div class="container">
-        <div class="split">This is new</div>
+        <div class="split">
+          <h1>Green House Gas Calculator</h1>
+          <div class="indicator">Alert</div>
+          <h3>Contributors</h3>
+          <marquee direction="left" backgroundcolor="white">
+            <div class="contributors">
+              <div id="variables1"></div>
+              <div id="variables2"></div>
+              <div id="variables3"></div>
+              <div id="variables4"></div>
+              <div id="variables5"></div>
+              <div id="variables6"></div>
+              <div id="variables7"></div>
+              <div id="variables8"></div></div
+          ></marquee>
+        </div>
+        <div class="split">
+          <div id="Varia"></div>
+          <form>
+            <input
+              type="number"
+              id="price"
+              name="price"
+              placeholder="Enter rating"
+            />
+          </form>
+        </div>
+        <div class="split"></div>
       </div>
     </section>
   </body>
