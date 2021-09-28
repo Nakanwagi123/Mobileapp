@@ -5,7 +5,7 @@
 }
 body {
   margin: 0;
-  background-color: yellow;
+  background-color: green;
   font-size: 1rem;
 }
 .others {
@@ -48,7 +48,8 @@ body {
   z-index: 1;
   border: 0.2em groove aqua;
   border-radius: 10%;
-  width: 50%;
+  width: 90%;
+  height: 50vh;
 }
 .opt.vanish {
   display: flex;
@@ -56,15 +57,31 @@ body {
 .vis {
   display: none;
 }
+/*Adjustments*/
+#adjust {
+  display: flex;
+  flex-direction: row;
+  color: whitesmoke;
+}
+.lab {
+  flex: 1;
+}
+.drag {
+  flex: 1;
+}
+#transportation {
+  flex: 1;
+}
 /*Content */
 .container {
   margin-inline: auto;
-  border: 1px solid whitesmoke;
+  /* border: 1px solid whitesmoke;*/
 }
 .split {
   display: flex;
   flex-direction: column;
   font-size: 1em;
+  padding: 0px;
 }
 .indicator {
   background-color: red;
@@ -76,7 +93,7 @@ body {
 }
 .contributors > * {
   padding-right: 0.5em;
-  background-color: teal;
+  background-color: whitesmoke;
 }
 .cover {
   background: url("images/favpng_earth-globe.png") center center/contain
@@ -100,10 +117,18 @@ body {
   );
   border: 1px groove white;
   border-radius: 25%;
-  opacity: 0;
+  opacity: 1;
 }
 .fill {
   list-style: none;
   display: flex;
   flex-direction: column;
+}
+.cal {
+  width: 50%;
+  background-color: whitesmoke;
+  border: 2px groove white;
+}
+.calcu {
+  text-align: center;
 }

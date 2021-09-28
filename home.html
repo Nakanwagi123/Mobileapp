@@ -8,7 +8,7 @@
     <script src="./home.js"></script>
     <title>Home</title>
   </head>
-  <body onload="GHG()">
+  <body id="body" onload="GHG()">
     <section class="navbar">
       <div class="containerr">
         <div class="overall">
@@ -26,9 +26,9 @@
       <div class="container">
         <div class="split">
           <h1>Green House Gas Calculator</h1>
-          <h3>Contributors</h3>
           <marquee direction="left" backgroundcolor="white">
             <div class="contributors">
+              <div>CURRENT POLLUTION:</div>
               <div id="variables1"></div>
               <div id="variables2"></div>
               <div id="variables3"></div>
@@ -42,81 +42,108 @@
         <div class="split">
           <div id="Varia"></div>
           <ul class="fill">
-            <li>
+            <li id="adjust">
+              <label class="lab">Industry</label>
               <input
+                class="drag"
                 type="range"
                 id="industry"
                 min="0"
                 max="19"
+                value="19"
                 placeholder="Enter rating"
               />
             </li>
-            <li>
+            <li id="adjust">
+              <label class="lab">Deforestation</label>
               <input
+                class="drag"
                 type="range"
                 id="deforestation"
                 min="0"
                 max="17"
+                value="17"
                 placeholder="Enter rating"
               />
             </li>
-            <li>
+            <li id="adjust">
+              <label class="lab">Power&Energy</label>
               <input
+                class="drag"
                 type="range"
                 id="power&energy"
                 min="0"
                 max="15"
+                value="15"
                 placeholder="Enter rating"
               />
             </li>
-            <li>
+            <li id="adjust">
+              <label class="lab">Agriculture</label>
               <input
+                class="drag"
                 type="range"
                 id="agriculture"
                 min="0"
                 max="14"
+                value="14"
                 placeholder="Enter rating"
               />
             </li>
-            <li>
+            <li id="adjust">
+              <label class="lab">Transportation</label>
               <input
+                class="drag"
                 type="range"
                 id="transportation"
                 min="0"
                 max="10"
+                value="10"
                 placeholder="Enter rating"
               />
             </li>
-            <li>
+            <li id="adjust">
+              <label class="lab">Waste</label>
               <input
+                class="drag"
                 type="range"
                 id="waste"
                 min="0"
                 max="10"
+                value="10"
                 placeholder="Enter rating"
               />
             </li>
-            <li>
+            <li id="adjust">
+              <label class="lab">Water</label>
               <input
+                class="drag"
                 type="range"
                 id="water"
                 min="0"
                 max="10"
+                value="10"
                 placeholder="Enter rating"
               />
             </li>
-            <li>
+            <li id="adjust">
+              <label class="lab">Building</label>
               <input
+                class="drag"
                 type="range"
                 id="building"
                 min="0"
                 max="5"
+                value="5"
                 placeholder="Enter rating"
               />
             </li>
           </ul>
-
-          <button type="button" onclick="MyFade()">Finish</button>
+          <div class="calcu">
+            <button class="cal" type="button" onclick="MyFade()">
+              Calculate
+            </button>
+          </div>
         </div>
         <div class="split">
           <div class="cover">

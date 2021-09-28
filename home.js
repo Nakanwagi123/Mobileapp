@@ -74,5 +74,9 @@ function MyFade() {
   if (total >= reference) {
     opacity = (total - reference) / 15;
     document.getElementById("smoke").style.opacity = opacity;
+    document.getElementById("body").style.backgroundColor = "green";
+  } else if (total <= reference) {
+    opacity = 0;
+    document.getElementById("smoke").style.opacity = opacity;
   }
 }
